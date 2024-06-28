@@ -1,0 +1,14 @@
+npm start
+npm nodemon i
+nodemon server.js
+ done untill video 5th.
+27/06/2024 18:10 continuing video 6, 7, 8 Done
+HTTP Methods and their meaning
+    method   meaning
+    GET :- Read data
+    POST :- Inser data
+    PUT or PATCH :- Update data, or insert if a new id
+    DELETE :- Delete data
+
+    TBC video from #9, although we are having trouble of conection failed of the database
+    Done with 9th tutorial and sever is connected though. But we created collection name user but has not been seen in MongoDB database.
