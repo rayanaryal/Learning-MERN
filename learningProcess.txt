@@ -1,0 +1,30 @@
+npm start
+npm nodemon i
+nodemon server.js
+ done untill video 5th.
+27/06/2024 18:10 continuing video 6, 7, 8 Done
+HTTP Methods and their meaning
+    method   meaning
+    GET :- Read data
+    POST :- Inser data
+    PUT or PATCH :- Update data, or insert if a new id
+    DELETE :- Delete data
+
+    TBC video from #9, although we are having trouble of conection failed of the database
+    Done with 9th tutorial and sever is connected though. But we created collection name user but has not been seen in MongoDB database.
+    Well so far, we have created schema and can see all those document in Postman after send as response.
+
+    28/06/2024 19:43 continuing with video number 11.
+    01/07/2024 8:00 continuing with video number 12 
+    ✅ Understanding:- JSON Web Token (JWT)
+    - JSON web Tokens (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. They are typically not stored in the database along with other user details. Instead, they are issued by the server during the authentication process and then stored on the client-side (e.g, in cookies or local storage) for later use.Windows: C:\Users\<Your-Username>\AppData\Local\Google\Chrome\User Data\Default\Cookies
+        -- JWTs are often used for authentication and authorization in web appliactions.
+        -- Authentication : verifying the identity a user or client.
+        -- Authorization : determining what actions a user ir client is allowed to perform.
+
+    -Components of a JWT
+        -- Header: Contains metadata about the token, such as the type of token and the signing alogrithim
+        --Payload: Contains claims or statements about an entity (typically, the user) and additional data.
+        -- Signature: To verify that the sender of the JWT is who it says it is and to ensure that the message wasn't changed along the way, signature is included.
+
+   ✅ Despite other types of function, we use Asynchronous Operations in Sceneraios like handling user authentication in a login process.
